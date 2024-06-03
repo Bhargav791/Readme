@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+</head>
+<body>
+  <h1>About Me</h1>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+  <style>
+    /* Add some basic styling */
+    body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+  </header>
+  <div id="profile">
+<h2>Aditya Bhargav</h2>
+    <p>I'm a student at IIT Patna, pursuing a degree in Computer Science.</p>
+  </div>
+  <div id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>Bachelor of Science in Computer Science, IIT Patna</li>
+      <li>High School Diploma, Don Bosco Academy</li>
+    </ul>
+  </div>
+  <div id="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Reading and Studying</li>
+      <li>Writing Articles</li>
+      <li>Adventure</li>
+    </ul>
+  </div>
+  <div id="ambitions">
+    <h2>Ambitions</h2>
+    <p>I aim to become a successful software engineer and i also want to contribute in the defence sector.</p>
+  </div>
+  <form id="contact">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <table id="skills">
+    <tr>
+      <th>Skill</th>
+      <th>Level</th>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>Intermediate</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>Beginner</td>
+    </tr>
+  </table>
+  <!-- Add more content as needed -->
+</body>
+</html>
